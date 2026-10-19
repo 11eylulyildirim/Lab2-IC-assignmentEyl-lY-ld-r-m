@@ -14,7 +14,13 @@ cd ~/lab2/techcorp
 ```
 
 This creates a small company directory tree. Every question below refers to it.
-Do **not** edit `setup.sh`. If you break something badly, re-run it to start fresh.
+Do **not** edit `setup.sh`. If you break something badly, run:
+
+```bash
+sudo rm -rf ~/lab2
+bash setup.sh
+cd ~/lab2/techcorp
+```
 
 For each question, write **both the command you used and its output** in `answers.md`.
 A correct answer with no command earns no marks — we are marking the method.
