@@ -1,4 +1,4 @@
-# Lab 2 — Answers
+# Lab 2: Answers
 
 Name:
 Student ID:
@@ -11,7 +11,7 @@ Student ID:
 > /home/student/lab2/techcorp
 > ```
 
-## Part A — Navigation and inspection
+## Part A: Navigation and inspection
 
 **A1.**
 
@@ -55,7 +55,7 @@ Student ID:
 
 ```
 
-## Part B — Creating and organising
+## Part B: Creating and organising
 
 **B1.**
 
@@ -108,6 +108,12 @@ Student ID:
 ```
 
 **C3.**
+
+```
+
+```
+
+**C4.**
 
 ```
 
