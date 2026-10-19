@@ -1,11 +1,12 @@
-# Lab 2 — Filesystem, Users and Permissions
+# Lab 2: Filesystem, Users and Permissions
 
-**Time:** 45 minutes for Part A–D. Part E is extension work for bonus marks.
-**Submit:** fill in `answers.md` in this repository, then commit and push before the end of the session.
+**Time:** Until the end of the session (Around 60 minutes)
+
+**Submit:** Fill in `answers.md` in this repository, then commit and push before the end of the session.
 
 ---
 
-## Setup — do this first
+## Setup: do this first
 
 ```bash
 bash setup.sh
@@ -20,7 +21,7 @@ A correct answer with no command earns no marks — we are marking the method.
 
 ---
 
-## Part A — Creating and Organizing
+## Part A: Creating and Organizing
 
 **A1.** Print the absolute path of the `techcorp` directory.
 
@@ -35,11 +36,11 @@ A correct answer with no command earns no marks — we are marking the method.
 
 **A6.** Inside `shared/`, create a symbolic link named api_link that points to `engineering/docs/api.md`.
 
-**A7.** Display the contents of the target file. What do you observe?
+**A7.** Display the contents of the linked file (via the link created). What do you observe?
 
 --
 
-## Part B — Users and Groups
+## Part B: Users and Groups
 
 **B1.** Print your own username, UID, GID and group memberships.
 
@@ -53,10 +54,12 @@ A correct answer with no command earns no marks — we are marking the method.
 
 --
 
-## Part C — Permissions
+## Part C: Permissions
 
 **C1.** `engineering/src/build.sh` is a script but will not run. Show the error, explain the cause, fix it with a **symbolic** chmod (not octal), and demonstrate that it now runs.
 
 **C2.** Three files in the tree are **world-writable**, which is a security problem. Find all three using a single `find` command.
 
-**C3.** Create a file `shared/team.txt`. Change its group ownership to `engineering`
+**C3.** After finding the 3 files, remove write permission for other users from all three.
+
+**C4.** Create a file `shared/team.txt`. Change its group ownership to `engineering`
