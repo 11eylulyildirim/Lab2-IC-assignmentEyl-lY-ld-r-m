@@ -59,4 +59,4 @@ A correct answer with no command earns no marks — we are marking the method.
 
 **C2.** Three files in the tree are **world-writable**, which is a security problem. Find all three using a single `find` command.
 
-## **C3.** Create a file `shared/team.txt`. Change its group ownership to `engineering`
+**C3.** Create a file `shared/team.txt`. Change its group ownership to `engineering`
